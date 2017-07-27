@@ -154,9 +154,10 @@ def get_data():
         else:
             listofObj.append(prev_obj)
             obj = Content(temp)
+            listofcid.append(campaignId)
             prev_obj = obj
     listofObj.append(prev_obj)
-    print(listofcid)
+    print(len(listofcid))
     return listofObj
 
 
