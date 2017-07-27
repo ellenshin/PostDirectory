@@ -1,1 +1,1 @@
-web: gunicorn postdirectory:app
+web: gunicorn postdirectory:app --log-file=-
