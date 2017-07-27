@@ -1,2 +1,4 @@
-Flask
+dj-database-url
+Django
 gunicorn
+Flask
