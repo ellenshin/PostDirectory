@@ -182,6 +182,6 @@ def view_css(file):
 
 if __name__ == '__main__':
     chdir(dirname(__file__))
-    get_data()
+    #get_data()
     #app.run(debug=True)
 
