@@ -6,11 +6,12 @@ from flask import Flask, render_template, send_from_directory
 app = Flask(__name__)
 
 # DEMO STUFF
-"""
+
 @app.route('/')
 def view_hello():
     return 'Hello World!'
 
+"""
 @app.route('/demo-1/')
 def view_demo_1():
     return render_template('demo-1.html', name='Justin')
